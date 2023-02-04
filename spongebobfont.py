@@ -7,7 +7,7 @@ def sponge_bob(input_string):
             out.append(input_string[pos].lower())
     return ''.join(out)
 
-trial_string=input("Input a sentence")
+trial_string=input("Input a sentence: ")
 new_string=[]
 words=trial_string.split()
 for word in words:
